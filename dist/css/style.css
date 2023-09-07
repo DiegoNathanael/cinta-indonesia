@@ -299,6 +299,7 @@ header::after {
   padding-inline: 10px;
 }
 
+/* Button */
 .kontak .box-kontak button:hover {
   background-color: #000;
 }
