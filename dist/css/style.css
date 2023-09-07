@@ -62,9 +62,8 @@ header::after {
   align-items: center;
 }
 
-.navbar .box-navbar .logo h1 {
-  color: white;
-  font-size: 24px;
+.navbar .box-navbar .logo {
+  margin-top: 10px;
 }
 
 .navbar .box-navbar .menu {
