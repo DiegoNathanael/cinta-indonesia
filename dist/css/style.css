@@ -240,20 +240,20 @@ header::after {
   -o-transition: all 0.3s ease;
 }
 
-.daftar {
+.kontak {
   padding: 50px 0 100px 0;
 }
 
-.daftar .box-daftar {
+.kontak .box-kontak {
   color: white;
   text-align: center;
 }
 
-.daftar .box-daftar h1 {
+.kontak .box-kontak h1 {
   margin-bottom: 50px;
 }
 
-.daftar .box-daftar h3 {
+.kontak .box-kontak h3 {
   font-weight: 400;
   margin-bottom: 10px;
   animation: animasi;
@@ -284,7 +284,7 @@ header::after {
   }
 }
 
-.daftar .box-daftar button {
+.kontak .box-kontak button {
   border: none;
   min-width: 100px;
   min-height: 40px;
@@ -299,7 +299,7 @@ header::after {
   padding-inline: 10px;
 }
 
-.daftar .box-daftar button i {
+.kontak .box-kontak button i {
   font-size: 16px;
   font-weight: bold;
   margin-inline: 5px;
@@ -396,7 +396,7 @@ header::after {
     font-size: 14px;
   }
 
-  .daftar .box-daftar h1 {
+  .kontak .box-kontak h1 {
     font-size: 28px;
   }
 
@@ -435,7 +435,7 @@ header::after {
 }
 
 @media screen and (max-width: 475px) {
-  .daftar .box-daftar button {
+  .kontak .box-kontak button {
     margin-bottom: 5px;
   }
 }
@@ -447,7 +447,7 @@ header::after {
     justify-self: center;
   }
 
-  .pantai .box-pantai {
+  .konten .box-konten {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
