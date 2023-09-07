@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif; 
   scroll-behavior: smooth;
 }
 
@@ -69,7 +69,6 @@ header::after {
   pointer-events: none;
 }
 
-
 .navbar .box-navbar .menu {
   display: flex;
   column-gap: 20px;
@@ -86,7 +85,7 @@ header::after {
 }
 
 .navbar .box-navbar .menu .active a {
-  background-color: #8b6e23;
+  background-color: #0f396c;
 }
 
 .navbar .box-navbar .menu li a:hover {
@@ -126,14 +125,14 @@ header::after {
 .hero .box-hero .box:nth-child(1) h1 {
   color: white;
   font-size: 3vw;
-  line-height: 1.5;
+  line-height: 1.3;
   margin-bottom: 20px;
 }
 
 .hero .box-hero .box:nth-child(1) p {
   line-height: 2;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-weight: 200;
 }
 
@@ -215,7 +214,7 @@ header::after {
 }
 
 .konten .box-konten .box p {
-  font-weight: 200;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 
@@ -297,14 +296,14 @@ header::after {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   cursor: pointer;
-  background-color: #8b6e23;
+  background-color: #0050b3;
   color: white;
   padding-inline: 10px;
 }
 
 /* Button */
 .kontak .box-kontak button:hover {
-  background-color: #5e4916;
+  background-color: #000;
 }
 
 .kontak .box-kontak button i {
@@ -315,7 +314,7 @@ header::after {
 
 .footer {
   padding: 50px 0 50px 0;
-  background-color: #8b6e23;
+  background-color: #0050b3;
 }
 
 .footer .box-footer {
