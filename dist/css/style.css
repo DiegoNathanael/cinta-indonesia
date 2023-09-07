@@ -251,7 +251,7 @@ header::after {
 }
 
 .kontak .box-kontak h1 {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .kontak .box-kontak h3 {
@@ -298,6 +298,11 @@ header::after {
   background-color: #0050b3;
   color: white;
   padding-inline: 10px;
+}
+
+/* Button */
+.kontak .box-kontak button:hover {
+  background-color: #000;
 }
 
 .kontak .box-kontak button i {
