@@ -328,6 +328,32 @@ header::after {
   color: white;
 }
 
+/* Sosial Media */
+
+.footer .box-footer .sosial-media {
+  padding-left: 20%;
+}
+
+.footer .box-footer .sosial-media h2 {
+  color: white;
+}
+
+.footer .box-footer .sosial-media img {
+  padding: 10px;
+  width: 45px;
+}
+
+.footer .box-footer .sosial-media .icon {
+  display: flex;
+  align-items: center;
+}
+
+.footer .box-footer .sosial-media .icon p {
+  color: white;
+}
+
+/* Sosial Media */
+
 .footer .box-footer .box:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -357,6 +383,8 @@ header::after {
 .footer .box-footer .box:nth-child(3) span {
   font-weight: bold;
 }
+
+
 
 @media screen and (max-width: 1200px) {
   .hero .box-hero .box:nth-child(1) button {
@@ -416,7 +444,7 @@ header::after {
 
   .footer .box-footer {
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 40px;
   }
 }
 
